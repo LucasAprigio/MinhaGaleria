@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+*{
+	font-family: "Source Sans Pro", sans-serif;
+	margin: 0;
+	padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    color: black;
+    background-color: rgb(39, 39, 41);
+}
+.fotoPerfil {
+	display: block;
+	margin: 25px 0px 30px 0px;
+	width: 330px;
+	height: 330px;
+	border-radius: 15px;
+	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+}
+#container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgb(130, 128, 128);
+	border-radius: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.nome {
+	background-color: rgb(114, 113, 113);
+	display: flex;
+	border-radius: 15px;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+
+	box-shadow: -5px 5px 7px rgba(0, 0, 0, 0.315);
+}
+
+.redes {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	list-style: none;
+	display: inline-block;
+	padding-right: 1vw;
+}
+
+.nomelucas {
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.informacoes {
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: center;
+}
+#contato {
+	display: block;
+	background-color: rgb(67, 66, 66);
+	margin: 15px 0px 15px 0px;
+	padding: 5px;
+	border-radius: 20px;
+	text-align: center;
+}
+.h2TituloConteudo {
+	padding: 20px;
+}
+a {
+	position: relative;
+	text-decoration: none;
+	display: flex;
+	margin: 0 auto;
+	transition: all 0.3s ease-in-out;
+	padding: 10px;
+}
+.conteudo a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+}
+
+.redes a {
+	padding: 0px !important;
+}
+
+.redes a:hover {
+	border-radius: 100%;
+	background-color: rgb(80, 77, 77);
+	transition: all 0.3s;
+	position: relative;
+	text-decoration: none;
+}
+
+.conteudo a:hover {
+	padding: 10px;
+	border-radius: 25px;
+	background-color: #120620;
+	transition: all 0.3s ease-in-out;
+	position: relative;
+}
+.experienciaCard a {
+	font-weight: bold;
+}
+.experienciaCard a:hover {
+	border: none;
+	background-color: #1c102600;
+	color: #cacaca;
+}
+
+.experienciaCard a:after {
+	content: "";
+	position: absolute;
+	background-color: #cacaca;
+	height: 3px;
+	width: 0;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	transition: 0.3s;
+}
+.experienciaCard a:hover:after {
+	width: 100%;
+}
+
+a.cvLink {
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 5px 15px 5px 15px;
+	background-color: #370268;
+	border: 2px solid #ebebeb;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+a.cvLink {
+	font-weight: bold;
+	color: #ebebeb;
+	text-decoration: none;
+}
+
+a.cvLink:hover {
+	background-color: #1a1026;
+	transition: all 0.3s;
+	border-radius: 10px;
+	padding: 5px 15px 5px 15px;
+}
+#redeSocial {
+	text-align: center;}
+h1 {
+	text-align: center;
+	text-shadow: -2px 5px 7px rgba(0, 0, 0, 0.507);
+}
+
+h2 {
+	margin-top: 0px;
+	text-shadow: -5px 5px 7px rgba(0, 0, 0, 0.507);
+}
