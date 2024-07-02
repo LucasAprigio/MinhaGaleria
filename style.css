@@ -8,22 +8,23 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #370268;
+	background: white;
 }
 
 
 
-header{
+header {
     height: 150px;
     display: flex;
     justify-content: center;
+
     align-items: center;
 }
 header h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     font-weight: 900;
-    color: #8636d1;
+    color: white;
 }
 
 body h2 {
@@ -31,16 +32,24 @@ body h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: 900;
-    color: #5b1899;
+    color: white
+    ;
+}
+#logo{
+    
+    height: 50px;
+    width: 65px;
+
 }
 
 #container {
+    
 	width: 95%;
 	margin: 0 auto;
-	background-color: rgb(130, 128, 128);
 	border-radius: 20px;
 	margin-bottom: 20px;
 	margin-top: 20px;
+    padding: 20px;
 }
 
 #paragrafo{
@@ -48,21 +57,19 @@ body h2 {
     margin-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: 900;
     color: rgb(255, 255, 255);
 }
 .galeria-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 2vw;
+    gap: 1.5vw;
     padding: 0 2vw;
 }
 .galeria-itens{
-    width: 340px;
-    height: 340px;
-    border: 10px solid #fff;
-    box-shadow: 5px 5px 5px #0006;
+    width: 20%;
+    height: 10%;
+    box-shadow: 5px 5px white;
     flex-grow: 1;
    transition: transform .5s linear;
 }
@@ -80,6 +87,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000;
+    color: gray;
     font-style: italic;
 }
