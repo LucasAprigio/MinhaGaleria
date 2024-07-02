@@ -1,92 +1,99 @@
 ::-webkit-scrollbar {
-	width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #ebebeb;
-	border-radius: 6px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-	background: white;
-}
-
-
-
-header {
+    width: 8px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background: #ebebeb;
+    border-radius: 6px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: white;
+    }
+    
+    
+    
+    header {
     height: 150px;
-    display: flex;
-    justify-content: center;
-
+    display: block;
+    justify-content: space-evenly;
     align-items: center;
-}
-header h1 {
+    }
+    
+    header > div:first-child {float: left;margin-top: 10px;margin-left: 30px;}
+    
+    header > div:last-child {
+    display: block;
+    text-align: left;
+    width: fit-content;
+    margin: 9px auto;
+    }
+    header h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     font-weight: 900;
     color: white;
-}
-
-body h2 {
+    }
+    
+    body h2 {
     margin-left:50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: 900;
     color: white
     ;
-}
-#logo{
-    
+    }
+    #logo{
     height: 50px;
     width: 65px;
-
-}
-
-#container {
+    margin: 0;
+    }
     
-	width: 95%;
-	margin: 0 auto;
-	border-radius: 20px;
-	margin-bottom: 20px;
-	margin-top: 20px;
+    #container {
+    
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     padding: 20px;
-}
-
-#paragrafo{
+    }
+    
+    #paragrafo{
     margin-left:50px;
     margin-bottom: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: rgb(255, 255, 255);
-}
-.galeria-container{
+    }
+    .galeria-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 1.5vw;
     padding: 0 2vw;
-}
-.galeria-itens{
+    }
+    .galeria-itens{
     width: 20%;
     height: 10%;
     box-shadow: 5px 5px white;
     flex-grow: 1;
-   transition: transform .5s linear;
-}
-.galeria-itens img{
+    transition: transform .5s linear;
+    }
+    .galeria-itens img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.galeria-itens:hover{
+    }
+    .galeria-itens:hover{
     transform: scale(1.1);
     
-}
-footer{
+    }
+    footer{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: gray;
     font-style: italic;
-}
+    }
